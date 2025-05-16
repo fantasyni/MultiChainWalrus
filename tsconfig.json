@@ -1,0 +1,13 @@
+{
+	"extends": "./tsconfig.shared.json",
+	"include": ["ptb/**/*.ts"],
+	"compilerOptions": {
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		// match output dir to input dir. e.g. dist/index instead of dist/src/index
+		"rootDir": "ptb",
+		"outDir": "dist",
+		// "isolatedModules": true,
+		"emitDeclarationOnly": false
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "name": "wormhole-scaffolding-evm",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "ISC",
+  "devDependencies": {
+    "@certusone/wormhole-sdk": "0.9",
+    "@typechain/ethers-v5": "^10.1.1",
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.8.4",
+    "chai": "^4.3.6",
+    "elliptic": "^6.6.1",
+    "ethers": "^5.7.1",
+    "mocha": "^10.0.0",
+    "ts-mocha": "^10.0.0",
+    "typechain": "^8.1.1",
+    "typescript": "^4.8.3"
+  },
+  "resolutions": {
+    "elliptic": "^6.6.1"
+  },
+  "dependencies": {
+    "@pythnetwork/pyth-sdk-solidity": "^4.1.0"
+  }
+}

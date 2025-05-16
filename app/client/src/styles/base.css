@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.connect-wallet-wrapper>button {
+  @apply !bg-transparent !shadow-none !flex-shrink-0 !py-2 !px-3 !text-sm;
+}
+
+.sui-object-card .rt-CardInner {
+  @apply flex flex-col justify-between;
+}
+
+.SelectContent {
+  width: var(--radix-select-trigger-width);
+  max-height: var(--radix-select-content-available-height);
+}
+
+.SelfButton {
+  background-color: white;
+  color: var(--violet-11);
+  box-shadow: 0 2px 10px var(--black-a7);
+}
+
+.SelfButton:hover {}
+
+.bg-tertiary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(198 132 246 / var(--tw-bg-opacity));
+}
+
+/* 调整Steps组件样式 */
+.ant-steps-horizontal {
+  flex-wrap: nowrap !important;
+  overflow: visible !important;
+}
+
+.ant-steps-item {
+  flex: 1;
+  min-width: 150px;
+  overflow: visible;
+}
+
+/* .ant-steps-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+} */
+
+.ant-steps-item-tail {
+  display: none !important;
+}
+
+.ant-steps-item-icon {
+  margin: 0 auto 8px !important;
+  width: auto !important;
+  height: auto !important;
+  background: none !important;
+}
+
+.ant-steps-item-title {
+  white-space: nowrap;
+  font-size: 14px !important;
+}
+
+.ant-steps-item-description {
+  font-size: 12px !important;
+  min-height: 36px;
+}
+
+/* 文件ID标签样式 */
+.ant-tag[data-file-id] {
+  cursor: pointer;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.3s;
+}
+
+.ant-tag[data-file-id]:hover {
+  background-color: #f0f9ff;
+  border-color: #91d5ff;
+}

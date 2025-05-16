@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" class="dark-theme" style="color-scheme: dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MultiChainWalrus</title>
+
+  <style>
+    /*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    * {
+      margin: 0;
+    }
+
+    body {
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img,
+    picture,
+    video,
+    canvas,
+    svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    input,
+    button,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      overflow-wrap: break-word;
+    }
+
+    #root,
+    #__next {
+      isolation: isolate;
+    }
+
+    html {
+      border-radius: var(--radius);
+      --tw-bg-opacity: 1;
+      background-color: rgb(12 15 29 / var(--tw-bg-opacity));
+      background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+      --tw-gradient-from: rgb(151 240 229 / .15) var(--tw-gradient-from-position);
+      --tw-gradient-to: rgb(151 240 229 / 0) var(--tw-gradient-to-position);
+      --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+      --tw-gradient-to: #0C0F1D var(--tw-gradient-to-position);
+      --tw-gradient-to-position: 40%;
+      background-repeat: no-repeat;
+      --tw-text-opacity: 1;
+      color: rgb(247 247 247 / var(--tw-text-opacity))
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+build
+.env
+.deepmove
+node_modules/
+deps
+Move.lock
+package-lock.json
+.idea

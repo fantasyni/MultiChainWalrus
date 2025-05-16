@@ -1,0 +1,18 @@
+import {
+    get_package_address
+} from "@deepmove/sui";
+
+let PACKAGE_NAME: string = "MoveStdlib";
+let PACKAGE_ADDRESS: string = "0x0000000000000000000000000000000000000000000000000000000000000001";
+let MODULE_NAME: string = "debug";
+
+function do_get_package_address() {
+    let package_address: string = get_package_address(PACKAGE_NAME);
+    if (package_address) {
+        return package_address;
+    } else {
+        return PACKAGE_ADDRESS;
+    }
+}
+
+export const debug = {}
